@@ -213,8 +213,8 @@ ETH_WS_URL= goerli eth wss linki
 # bu linkleri infuradan almıştık, zorlanırsan rues chatten yardım talep edin.
 
 # key yolundan kastım path, yukarıda öğrenmiştiniz.
-ECDSA_KEY_FILE_HOST= eigen cli kurulumda aldığımız ecdsa key yolumuz
-BLS_KEY_FILE_HOST= eigen cli kurulumda aldığımız bls key yolumuz
+ECDSA_KEY_FILE_HOST=/.eigenlayer/operator_keys/<key-name>.ecdsa.key.json
+BLS_KEY_FILE_HOST=/.eigenlayer/operator_keys/<key-name>.bls.key.json
 
 # yukarıda bir şifre belirlemiştik her yerde kullandığımız.
 ECDSA_KEY_PASSWORD= eigen cli kurulumda belirlediğimiz karmaşık key şifresi
