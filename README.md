@@ -138,7 +138,7 @@ eigenlayer operator config create
 
 > metadata.json içeriğini kendinize göre düzenleyeceksiniz ve public erişilebilir bir yere upload edeceksiniz.
 
-> Bunun için githubda bir repo oluşturup metadata.json içeriğinizi oraya yazın ve raw linkini kenarda tutabilirsiniz.
+> Bunun için githubda bir repo oluşturup metadata.json içeriğinizi oraya yazın ve raw linkini kenarda tutabilirsiniz. Hem metadata.json içinde düzenleyeceksiniz hem de github reponuzda.
 
 > Aşağıya görsel bırakıyorum:
 
@@ -238,9 +238,3 @@ docker logs -f <container_id>
 > işlemler bu kadardı, sırf sorun var mı diye tekrar test edip kurdum sorun yok çünkü bu repoyu eskiden yazdım.
 
 > İlla ki eksiğim vardır, PR atarsınız veya ben commitlerim, ben yolculuktayken siz öğrenmeye bakın bir şeyler.
-
-
-
-
-
-
