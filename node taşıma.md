@@ -61,25 +61,18 @@ mkdir -p /root/.eigenlayer/operator_keys
 <h2> Simdi burada önemli bir kısım var. Burayı dikkatli yapalım. </h2>
 
 ```console
-# dosya yolunu kendinize göre düzenleyin.
-nano /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
-# burası açık kalsın
+# keylerimizi yeni sunucumuza import edelim.(parantezler olmadan)
+#ecdsa key için aşağıdaki komut.
+eigenlayer operator keys import --key-type ecdsa <keyname> <privatekey>
 
-# eski sunucumuza gidelim ve aşağıdaki komutu kendinize göre değiştirelim ve çalıştıralım.
- cat /root/.eigenlayer/operator_keys/isminiz.ecdsa.key.json
-# şimdi burada bize bir çıktı verecek bunu kopyalayıp hemen yukarıda yeni sunucumuzda açtığımız boş olan nano içine yapıştıralım. ( metinin başını ve sonunu dikkatli kopyalayın. )
-# ctrl+x y enter diyerek çıkabiliriz.
-# ecdsa key dosyamızı taşıdık. şimdi bls key dosyamızı taşıyoruz.
-# yeni sunucumuza geçelim ve dosya yolumuzu kendimize göre düzenleyelim.
-nano /root/.eigenlayer/operator_keys/isim.bls.key.json
+# bls key için aşağıdaki komut.
+eigenlayer operator keys import --key-type bls [keyname] [privatekey] 
 
-# eski sunucumuza gidelim ve aşağıdaki komutu kendimize göre düzenledikten sonra çalıştıralım.
-cat /root/.eigenlayer/operator_keys/isim.bls.key.json
-# bize verdiği çıktıyı dikkatli bir şekilde kopyalayalım ve yeni sunucumuzda az önce açtığımız nano dosyasının içine yapıştıralım.
 # bu komut ile keylerimizi kontrol edelim.doğru ise devam.
 eigenlayer operator keys list
 
-# keylerimizi taşımış olduk şimdi devam edelim.
+# keylerimizi taşımış olduk.
+
 ```
 Operator kaydı
 ```console
