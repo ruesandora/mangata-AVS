@@ -100,7 +100,7 @@ nano operator.yaml
 
 > Burada yine değişiklik yapacağız
 > `metadata_url` için `metadata.json` dosyamızın public `raw linki`
-> `el_slasher_address` için: 0xD11d60b669Ecf7bE10329726043B3ac07B380C22
+> `el_slasher_address` için: 0x3865B5F5297f86c5295c7f818BAD1fA5286b8Be6
 > `bls_public_key_compendium_address` için: 0xc81d3963087Fe09316cd1E032457989C7aC91b19
 > ctrl + x + y ile kaydedip çıkıyoruz.
 ![image](https://github.com/ruesandora/mangata-AVS/assets/101149671/e61df955-89ac-4f31-8318-46c013d78817)
