@@ -51,7 +51,7 @@ sudo docker run hello-world
 
 # Go kurulumu
 cd $HOME
-ver="1.20.2"
+ver="1.21.0"
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
