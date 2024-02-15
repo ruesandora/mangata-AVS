@@ -12,7 +12,6 @@ if __name__ == "__main__":
     container = client.containers.get(container_name)
     print("Script started!")
     print("Container State: ", container.attrs['State'])
-    print("Container Config: ", container.attrs['Config'])
 
     while True:
         # We assume that container is already up and running
